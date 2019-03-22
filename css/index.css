@@ -49,7 +49,6 @@ table {
 
 * {
     box-sizing: border-box;
-		font-family: "Helvetica", "Arial", sans-serif;
 }
 
 html, body {
@@ -105,9 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,4 +159,46 @@ footer nav a {
 
 .jumbo {
 	margin-bottom: 20px;
+}
+
+/* Boxes ﾉ◕ヮ◕)ﾉ*:・ﾟ✧ ✧ﾟ・: *ヽ(◕ヮ◕ヽ) Yayy */
+
+.first-box {
+	background-color: teal;
+}
+
+.second-box {
+	background-color: gold;
+}
+
+.third-box {
+	background-color: cadetblue;
+}
+
+.fourth-box {
+	background-color: coral;
+}
+
+.fifth-box {
+	background-color: crimson;
+}
+
+.sixth-box {
+	background-color: forestgreen;
+}
+
+.seventh-box {
+	background-color: darkorchid;
+}
+
+.eigth-box {
+	background-color: hotpink;
+}
+
+.ninth-box {
+	background-color: indigo;
+}
+
+.tenth-box {
+	background-color: dodgerblue;
 }
