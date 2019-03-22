@@ -231,9 +231,21 @@ footer nav a {
 	border-color: black;
   background: #fff;
   padding: 0px;
+	margin-bottom: 10px;
   width: 200px;
   height: 30px;
 }
 .button:hover {
   background: #fff;
+}
+
+.strategy-img,
+.work-img,
+.places-img,
+.collab-img {
+	margin-bottom: 20px;
+}
+
+.about {
+	margin-bottom: 20px;
 }
