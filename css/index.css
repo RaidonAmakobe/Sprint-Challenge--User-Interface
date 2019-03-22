@@ -202,3 +202,25 @@ footer nav a {
 .tenth-box {
 	background-color: dodgerblue;
 }
+
+/* About page boxes */
+
+.about-page {
+	display: flex;
+	flex: wrap;
+}
+
+.page-down {
+	display: flex;
+	flex: wrap;
+}
+
+.strategy,
+.how-we-work,
+.places-we-work,
+.collaboration {
+	width: 500px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed black;
+}
