@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -82,7 +82,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,9 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,4 +141,111 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding: 30px;
+}
+
+.logo {
+   position: relative;
+   bottom: 10px;
+   right: 30px;
+}
+
+.jumbo {
+	margin-bottom: 20px;
+}
+
+/* Boxes ﾉ◕ヮ◕)ﾉ*:・ﾟ✧ ✧ﾟ・: *ヽ(◕ヮ◕ヽ) Yayy */
+
+.first-box {
+	background-color: teal;
+}
+
+.second-box {
+	background-color: gold;
+}
+
+.third-box {
+	background-color: cadetblue;
+}
+
+.fourth-box {
+	background-color: coral;
+}
+
+.fifth-box {
+	background-color: crimson;
+}
+
+.sixth-box {
+	background-color: forestgreen;
+}
+
+.seventh-box {
+	background-color: darkorchid;
+}
+
+.eigth-box {
+	background-color: hotpink;
+}
+
+.ninth-box {
+	background-color: indigo;
+}
+
+.tenth-box {
+	background-color: dodgerblue;
+}
+
+/* About page boxes */
+
+.about-page {
+	display: flex;
+	flex: wrap;
+}
+
+.page-down {
+	display: none;
+	display: flex;
+	flex: wrap;
+}
+
+.strategy,
+.how-we-work,
+.places-we-work,
+.collaboration {
+	width: 500px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	border-bottom: 1px dashed black;
+}
+
+.button {
+	border-radius: 10px;
+	border-color: black;
+  background: #fff;
+  padding: 0px;
+	margin-bottom: 10px;
+  width: 200px;
+  height: 30px;
+}
+.button:hover {
+  background: #fff;
+}
+
+.strategy-img,
+.work-img,
+.places-img,
+.collab-img {
+	margin-bottom: 20px;
+}
+
+.about {
+	margin-bottom: 0px;
 }
